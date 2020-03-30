@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects xmlns:sas_workflow_common="sas_workflow_common.dtd" xmlns:operand="operand.dtd" xmlns:status="status.dtd" xmlns:process="process.dtd" xmlns:policy="policy.dtd" sas-workflow-xml-version="1.2" sas-workflow-studio-version="1.3">
+  <process:process definition="true">
+    <sas_workflow_common:definition_id>f1387529-e51a-4429-aed4-a0b40525e86c</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+    <sas_workflow_common:acl />
+    <sas_workflow_common:metadata>
+      <sas_workflow_common:metadata_element>
+        <sas_workflow_common:key>sas-workflow-studio-version</sas_workflow_common:key>
+        <sas_workflow_common:value>1.3</sas_workflow_common:value>
+      </sas_workflow_common:metadata_element>
+      <sas_workflow_common:metadata_element>
+        <sas_workflow_common:key>labeled_entities</sas_workflow_common:key>
+        <sas_workflow_common:value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<labeled_entities />]]></sas_workflow_common:value>
+      </sas_workflow_common:metadata_element>
+      <sas_workflow_common:metadata_element>
+        <sas_workflow_common:key>sas-workflow-xml-version</sas_workflow_common:key>
+        <sas_workflow_common:value>1.2</sas_workflow_common:value>
+      </sas_workflow_common:metadata_element>
+      <sas_workflow_common:metadata_element>
+        <sas_workflow_common:key>Drawing</sas_workflow_common:key>
+        <sas_workflow_common:value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<process_plan>
+  <nodes>
+    <start_node>
+      <size height="32" width="32" />
+      <position>
+        <point x="26" y="40" />
+      </position>
+      <connections portCount="4" />
+    </start_node>
+    <stop_node>
+      <size height="32" width="32" />
+      <position>
+        <point x="426" y="40" />
+      </position>
+      <id>0</id>
+      <label />
+    </stop_node>
+    <process_node>
+      <size height="40" width="92" />
+      <position>
+        <point x="226" y="40" />
+      </position>
+      <custom_display>
+        <line_color>54 87 140</line_color>
+        <line_thickness>0.5</line_thickness>
+        <fill_color>199 209 227</fill_color>
+        <text_color>0 0 0</text_color>
+        <font family="Dialog" size="11" style="0" />
+        <image />
+      </custom_display>
+      <label_path>
+        <label>Untitled1</label>
+        <label>Task0</label>
+      </label_path>
+      <connections portCount="4" />
+    </process_node>
+  </nodes>
+</process_plan>]]></sas_workflow_common:value>
+      </sas_workflow_common:metadata_element>
+    </sas_workflow_common:metadata>
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_LOCALE_LANGUAGE</sas_workflow_common:key>
+        <sas_workflow_common:value>en</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>dateModified</sas_workflow_common:key>
+        <sas_workflow_common:value>2019-03-21T11:17:50Z</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_FORMAT_SHORT_DATE</sas_workflow_common:key>
+        <sas_workflow_common:value>YYMMDD10</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>createdBy</sas_workflow_common:key>
+        <sas_workflow_common:value>automation</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_LOCALE_COUNTRY</sas_workflow_common:key>
+        <sas_workflow_common:value>US</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_LOCALE_VARIANT</sas_workflow_common:key>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>Type</sas_workflow_common:key>
+        <sas_workflow_common:value>process</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>modifiedBy</sas_workflow_common:key>
+        <sas_workflow_common:value>automation</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_FORMAT_LONG_DATE</sas_workflow_common:key>
+        <sas_workflow_common:value>NLDATEW</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>dateCreated</sas_workflow_common:key>
+        <sas_workflow_common:value>2019-03-18T18:29:32Z</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_FORMAT_TIME</sas_workflow_common:key>
+        <sas_workflow_common:value>NLTIME</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>_SAS_WF_FORMAT_TIME_DATE</sas_workflow_common:key>
+        <sas_workflow_common:value>NLDATMAP</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+    <process:timers />
+    <process:timer_ids />
+    <process:state state_name="unstarted" />
+    <process:current_statuses />
+    <process:operands>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>abc</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>def</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:operands>
+    <process:statuses />
+    <process:policies />
+    <process:superprocess />
+    <process:definition />
+    <process:processRoot />
+    <process:subprocesses>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:subprocesses>
+    <process:tags />
+  </process:process>
+  <operand:operand>
+    <sas_workflow_common:definition_id>fb4b3271-d08c-45cb-be5d-d2192e13d886</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>abc</sas_workflow_common:label>
+    <sas_workflow_common:description>my description</sas_workflow_common:description>
+    <sas_workflow_common:acl />
+    <operand:operand_value>json=abc</operand:operand_value>
+    <sas_workflow_common:associated_process>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </sas_workflow_common:associated_process>
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>dataType</sas_workflow_common:key>
+        <sas_workflow_common:value>Short Text</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+  </operand:operand>
+  <operand:operand>
+    <sas_workflow_common:definition_id>dfd6acee-8d6d-41fd-b8c7-6a4df1dd5d56</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>def</sas_workflow_common:label>
+    <sas_workflow_common:description>My number</sas_workflow_common:description>
+    <sas_workflow_common:acl />
+    <operand:operand_value>5</operand:operand_value>
+    <sas_workflow_common:associated_process>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </sas_workflow_common:associated_process>
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>dataType</sas_workflow_common:key>
+        <sas_workflow_common:value>Number</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+  </operand:operand>
+  <operand:operand>
+    <sas_workflow_common:definition_id>7647b937-23ae-435d-b465-e2330150e3c8</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>sub1</sas_workflow_common:label>
+    <sas_workflow_common:description />
+    <sas_workflow_common:acl />
+    <operand:operand_value>abc</operand:operand_value>
+    <sas_workflow_common:associated_process>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </sas_workflow_common:associated_process>
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>dataType</sas_workflow_common:key>
+        <sas_workflow_common:value>Short Text</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+  </operand:operand>
+  <status:status>
+    <sas_workflow_common:definition_id>6b57151d-5359-4032-b7bf-8b6b106f06e1</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>(Otherwise)</sas_workflow_common:label>
+    <sas_workflow_common:description>This status defines a status wherein all the NOT of each co-conditions are ANDed.</sas_workflow_common:description>
+    <sas_workflow_common:acl />
+    <sas_workflow_common:associated_process>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </sas_workflow_common:associated_process>
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes />
+  </status:status>
+  <status:status>
+    <sas_workflow_common:definition_id>9917f2af-7b66-4099-8350-0c48f3de28eb</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>approve</sas_workflow_common:label>
+    <sas_workflow_common:acl />
+    <sas_workflow_common:associated_process>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </sas_workflow_common:associated_process>
+    <sas_workflow_common:metadata>
+      <sas_workflow_common:metadata_element>
+        <sas_workflow_common:key>boolExpr</sas_workflow_common:key>
+        <sas_workflow_common:value>abc = 'true'</sas_workflow_common:value>
+      </sas_workflow_common:metadata_element>
+    </sas_workflow_common:metadata>
+    <sas_workflow_common:attributes />
+  </status:status>
+  <process:process definition="true">
+    <sas_workflow_common:definition_id>c4e93fde-79be-4e61-b759-6e8cf27e5044</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>Task0</sas_workflow_common:label>
+    <sas_workflow_common:description>task description</sas_workflow_common:description>
+    <sas_workflow_common:acl />
+    <sas_workflow_common:metadata>
+      <sas_workflow_common:metadata_element>
+        <sas_workflow_common:key>Drawing</sas_workflow_common:key>
+        <sas_workflow_common:value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<process_plan>
+  <nodes>
+    <start_node>
+      <size height="32" width="32" />
+      <position>
+        <point x="26" y="40" />
+      </position>
+      <connections portCount="4">
+        <connection srcPort="2" destPort="3" to="process">
+          <label_path>
+            <label>Untitled1</label>
+            <label>Task0</label>
+            <label>Decision1</label>
+          </label_path>
+          <points>
+            <point x="58" y="56" />
+            <point x="226" y="70" />
+          </points>
+          <custom_display>
+            <line_color>0 0 0</line_color>
+            <line_thickness>1.0</line_thickness>
+          </custom_display>
+        </connection>
+      </connections>
+    </start_node>
+    <stop_node>
+      <size height="32" width="32" />
+      <position>
+        <point x="626" y="40" />
+      </position>
+      <id>0</id>
+      <label />
+    </stop_node>
+    <process_node>
+      <size height="61" width="43" />
+      <position>
+        <point x="226" y="40" />
+      </position>
+      <custom_display>
+        <line_color>255 200 0</line_color>
+        <line_thickness>0.0</line_thickness>
+        <fill_color>136 211 67</fill_color>
+        <text_color>0 0 0</text_color>
+        <font family="Dialog" size="10" style="0" />
+      </custom_display>
+      <label_path>
+        <label>Untitled1</label>
+        <label>Task0</label>
+        <label>Decision1</label>
+      </label_path>
+      <connections portCount="4">
+        <connection srcPort="2" destPort="3" to="process">
+          <status>
+            <label_path>
+              <label>Untitled1</label>
+              <label>Task0</label>
+              <label>Decision1</label>
+              <label>approve</label>
+            </label_path>
+          </status>
+          <label_path>
+            <label>Untitled1</label>
+            <label>Task0</label>
+            <label>SubTask0</label>
+          </label_path>
+          <points>
+            <point x="269" y="70" />
+            <point x="426" y="60" />
+          </points>
+          <custom_display>
+            <line_color>0 0 0</line_color>
+            <line_thickness>1.0</line_thickness>
+            <fill_color>252 244 205</fill_color>
+            <text_color>0 0 0</text_color>
+            <font family="Dialog" size="11" style="0" />
+          </custom_display>
+        </connection>
+        <connection srcPort="2" destPort="3" to="stop">
+          <status>
+            <label_path>
+              <label>Untitled1</label>
+              <label>Task0</label>
+              <label>Decision1</label>
+              <label>(Otherwise)</label>
+            </label_path>
+          </status>
+          <id>0</id>
+          <points>
+            <point x="269" y="70" />
+            <point x="626" y="56" />
+          </points>
+          <custom_display>
+            <line_color>0 0 0</line_color>
+            <line_thickness>1.0</line_thickness>
+            <fill_color>252 244 205</fill_color>
+            <text_color>0 0 0</text_color>
+            <font family="Dialog" size="11" style="0" />
+          </custom_display>
+        </connection>
+      </connections>
+    </process_node>
+    <process_node>
+      <size height="40" width="92" />
+      <position>
+        <point x="426" y="40" />
+      </position>
+      <custom_display>
+        <line_color>54 87 140</line_color>
+        <line_thickness>0.5</line_thickness>
+        <fill_color>199 209 227</fill_color>
+        <text_color>0 0 0</text_color>
+        <font family="Dialog" size="11" style="0" />
+        <image />
+      </custom_display>
+      <label_path>
+        <label>Untitled1</label>
+        <label>Task0</label>
+        <label>SubTask0</label>
+      </label_path>
+      <connections portCount="4" />
+    </process_node>
+  </nodes>
+</process_plan>]]></sas_workflow_common:value>
+      </sas_workflow_common:metadata_element>
+    </sas_workflow_common:metadata>
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>Type</sas_workflow_common:key>
+        <sas_workflow_common:value>subprocess</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+    <process:timers />
+    <process:timer_ids />
+    <process:state state_name="unstarted" />
+    <process:current_statuses />
+    <process:change_condition>
+      <process:condition>
+        <process:conjunction>
+          <process:condition>
+            <process:process_has_status>
+              <sas_workflow_common:object_reference>
+                <sas_workflow_common:label_path type="object">
+                  <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+                  <sas_workflow_common:label>Task0</sas_workflow_common:label>
+                  <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+                </sas_workflow_common:label_path>
+              </sas_workflow_common:object_reference>
+              <sas_workflow_common:object_reference>
+                <sas_workflow_common:label_path type="object">
+                  <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+                  <sas_workflow_common:label>Task0</sas_workflow_common:label>
+                  <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+                  <sas_workflow_common:label>(Otherwise)</sas_workflow_common:label>
+                </sas_workflow_common:label_path>
+              </sas_workflow_common:object_reference>
+            </process:process_has_status>
+          </process:condition>
+          <process:condition>
+            <process:process_state_equals>
+              <sas_workflow_common:object_reference>
+                <sas_workflow_common:label_path type="object">
+                  <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+                  <sas_workflow_common:label>Task0</sas_workflow_common:label>
+                  <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+                </sas_workflow_common:label_path>
+              </sas_workflow_common:object_reference>
+              <process:state state_name="finished" />
+            </process:process_state_equals>
+          </process:condition>
+        </process:conjunction>
+      </process:condition>
+      <process:change>
+        <process:state_change>
+          <process:state state_name="finished" />
+        </process:state_change>
+      </process:change>
+    </process:change_condition>
+    <process:operands>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>sub1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:operands>
+    <process:statuses />
+    <process:policies />
+    <process:superprocess>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:superprocess>
+    <process:definition />
+    <process:processRoot />
+    <process:subprocesses>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>SubTask0</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:subprocesses>
+    <process:tags />
+  </process:process>
+  <process:process definition="true">
+    <sas_workflow_common:definition_id>c09441bf-56bd-4a76-894f-ecdcf9069486</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+    <sas_workflow_common:acl />
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>Type</sas_workflow_common:key>
+        <sas_workflow_common:value>decision</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+    <process:timers />
+    <process:timer_ids />
+    <process:state state_name="unstarted" />
+    <process:current_statuses />
+    <process:precondition>
+      <process:condition>
+        <process:process_state_equals>
+          <sas_workflow_common:object_reference>
+            <sas_workflow_common:label_path type="object">
+              <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+              <sas_workflow_common:label>Task0</sas_workflow_common:label>
+            </sas_workflow_common:label_path>
+          </sas_workflow_common:object_reference>
+          <process:state state_name="started" />
+        </process:process_state_equals>
+      </process:condition>
+    </process:precondition>
+    <process:operands />
+    <process:statuses>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+          <sas_workflow_common:label>(Otherwise)</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+          <sas_workflow_common:label>approve</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:statuses>
+    <process:policies>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+          <sas_workflow_common:label>DecisionNodePolicy</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:policies>
+    <process:superprocess>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:superprocess>
+    <process:definition />
+    <process:processRoot />
+    <process:subprocesses />
+    <process:tags />
+  </process:process>
+  <process:process definition="true">
+    <sas_workflow_common:definition_id>50b1aadf-ec00-41e4-ab27-66aebfd46b7e</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>SubTask0</sas_workflow_common:label>
+    <sas_workflow_common:description>subtask description</sas_workflow_common:description>
+    <sas_workflow_common:acl />
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>Type</sas_workflow_common:key>
+        <sas_workflow_common:value>activity</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+    <process:timers />
+    <process:timer_ids />
+    <process:state state_name="unstarted" />
+    <process:current_statuses />
+    <process:precondition>
+      <process:condition>
+        <process:conjunction>
+          <process:condition>
+            <process:process_has_status>
+              <sas_workflow_common:object_reference>
+                <sas_workflow_common:label_path type="object">
+                  <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+                  <sas_workflow_common:label>Task0</sas_workflow_common:label>
+                  <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+                </sas_workflow_common:label_path>
+              </sas_workflow_common:object_reference>
+              <sas_workflow_common:object_reference>
+                <sas_workflow_common:label_path type="object">
+                  <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+                  <sas_workflow_common:label>Task0</sas_workflow_common:label>
+                  <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+                  <sas_workflow_common:label>approve</sas_workflow_common:label>
+                </sas_workflow_common:label_path>
+              </sas_workflow_common:object_reference>
+            </process:process_has_status>
+          </process:condition>
+          <process:condition>
+            <process:process_state_equals>
+              <sas_workflow_common:object_reference>
+                <sas_workflow_common:label_path type="object">
+                  <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+                  <sas_workflow_common:label>Task0</sas_workflow_common:label>
+                  <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+                </sas_workflow_common:label_path>
+              </sas_workflow_common:object_reference>
+              <process:state state_name="finished" />
+            </process:process_state_equals>
+          </process:condition>
+        </process:conjunction>
+      </process:condition>
+    </process:precondition>
+    <process:operands />
+    <process:statuses />
+    <process:policies />
+    <process:superprocess>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </process:superprocess>
+    <process:definition />
+    <process:processRoot />
+    <process:subprocesses />
+    <process:tags />
+  </process:process>
+  <policy:policy>
+    <sas_workflow_common:definition_id>463b0a0a-c8a8-407a-8b98-14acbad265db</sas_workflow_common:definition_id>
+    <sas_workflow_common:label>DecisionNodePolicy</sas_workflow_common:label>
+    <sas_workflow_common:acl />
+    <policy:event_source>ProcessCommandService</policy:event_source>
+    <policy:event_name>ProcessStarted</policy:event_name>
+    <policy:event_attributes>
+      <policy:ProcessLabelPath>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>.</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </policy:ProcessLabelPath>
+    </policy:event_attributes>
+    <policy:language>java</policy:language>
+    <policy:policy_definition>
+      <policy:classname>com.sas.workflow.engine.policy.DecisionNodePolicy</policy:classname>
+    </policy:policy_definition>
+    <sas_workflow_common:associated_process>
+      <sas_workflow_common:object_reference>
+        <sas_workflow_common:label_path type="object">
+          <sas_workflow_common:label>Untitled1</sas_workflow_common:label>
+          <sas_workflow_common:label>Task0</sas_workflow_common:label>
+          <sas_workflow_common:label>Decision1</sas_workflow_common:label>
+        </sas_workflow_common:label_path>
+      </sas_workflow_common:object_reference>
+    </sas_workflow_common:associated_process>
+    <sas_workflow_common:metadata />
+    <sas_workflow_common:attributes>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>$ExpressionCount</sas_workflow_common:key>
+        <sas_workflow_common:value>1</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>policyMetaData</sas_workflow_common:key>
+        <sas_workflow_common:value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<policy_data>
+  <policy_type>_DecisionNode</policy_type>
+  <parameters>
+    <parameter>
+      <name>Status0</name>
+      <data_type />
+      <value>approve</value>
+      <depends_on />
+    </parameter>
+    <parameter>
+      <name>Expression0</name>
+      <data_type />
+      <value>abc = 'true'</value>
+      <depends_on />
+    </parameter>
+    <parameter>
+      <name>ExpressionCount</name>
+      <data_type />
+      <value>1</value>
+      <depends_on />
+    </parameter>
+  </parameters>
+</policy_data>]]></sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>$Status0</sas_workflow_common:key>
+        <sas_workflow_common:value>approve</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+      <sas_workflow_common:attribute_element>
+        <sas_workflow_common:key>$Expression0</sas_workflow_common:key>
+        <sas_workflow_common:value>abc = 'true'</sas_workflow_common:value>
+      </sas_workflow_common:attribute_element>
+    </sas_workflow_common:attributes>
+  </policy:policy>
+</objects>
+
