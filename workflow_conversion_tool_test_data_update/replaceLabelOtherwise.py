@@ -17,17 +17,20 @@ srcWorkflowFile = sys.argv[1]
 destWorkflowFile = sys.argv[2]
 
 # build regex
-regexPattern = re.compile(r'\(Complete\)')  # must escape parens because they are capture group identifiers
+regexPattern = re.compile(r'\(Otherwise\)')  # must escape parens because they are capture group identifiers
 
 # open file and process it line-by-line
 inFile = open(srcWorkflowFile, "r")
 outFile = open(destWorkflowFile, "w")
+matchCount = 1
+lineNo = 0
 try:
     for line in inFile:
-        match = regexPattern.search(line)
-        if match:
-            print(line)
-        
+        lineNo += 1
+        replacementText = f"(Otherwise #{lineNo} TEMP)"
+        opt = re.sub(regexPattern, replacementText, line)
+        # print(f"{lineNo}: {opt.rstrip()}")  # rstrip() removes trailing space and newline
+        outFile.write(opt)        
 finally:
     inFile.close()
     outFile.close()

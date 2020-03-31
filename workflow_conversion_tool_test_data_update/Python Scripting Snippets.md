@@ -71,12 +71,12 @@ Or, with more robust resource management using `try..finally`
 f = open('my_text_file.txt')
 try:
 	for line in f:
-    	print(line)
+    	print(line)     
 finally:
 	fh.close()
 ```
 
-
+Note: `line` will contain the line terminator character(s) found in the source file.  To remove these, use `line.rstrip()`
 
 ## Command-line Arguments
 
@@ -170,7 +170,47 @@ $ python cul.py -c un deux trois
 Un Deux Trois
 ```
 
+## String Processing in Python
+
+### Trimming Leading or Trailing Whitespace
+
+```python
+leadingSpaceRemoved = s.lstrip()
+trailingSpaceRemoved = s.rstrip()
+bothRemoved = s.strip()
+```
+
+Note: Python's `strip()` methods take an optional argument; the characters to strip.  For example, to remove the CR+LF at the end of Windows files, use `s.rstrip('\r\n')`
+
+### Replacing Occurrences of a Substring
+
+```python
+s = "geeks for geeks geeks geeks geeks" 
+   
+# Prints the string by replacing geeks by Geeks  
+print(string.replace("geeks", "Geeks"))  
+  
+# Prints the string by replacing only 3 occurrence of Geeks   
+print(string.replace("geeks", "GeeksforGeeks", 3)) 
+```
+
+### Replacing a Section of a String using Slices
+
+`s = s[:position] + replacement + s[position+length_of_replaced:]`
+
+Example:
+
+```python
+# replace 'sat' with 'slept'
+text = "The cat sat on the mat"
+text = text[:8] + "slept" + text[11:]
+```
+
+
+
 ## Regular Expressions in Python
+
+### Compiling Patterns and Using Them to Find Matches
 
 Reference: https://docs.python.org/3/howto/regex.html
 
@@ -226,3 +266,32 @@ $ simpleGrep.py 'abc.*label'  gateway.xml
 
 
 **Note**: You can learn about this by interactively experimenting with the [`re`](https://docs.python.org/3/library/re.html#module-re) module. If you have [`tkinter`](https://docs.python.org/3/library/tkinter.html#module-tkinter) available, you may also want to look at [Tools/demo/redemo.py](https://github.com/python/cpython/tree/3.8/Tools/demo/redemo.py), a demonstration program included with the Python distribution. It allows you to enter REs and strings, and displays whether the RE matches or fails.
+
+### Replacing an Occurrence of a Regular Expression
+
+The method `sub( regExPattern, repl, srcString [, count [, flags ] ] )`  returns the string obtained by replacing the leftmost non-overlapping occurrences of *regExPattern* in *srcString* by the replacement *repl*. If the pattern isn’t found, *string* is returned unchanged.
+
+Examples:
+
+```python
+# Replace "and" with "&" (case-insensitive)
+s = 'Baked Beans And Spam'
+print(re.sub(r'\sAND\s', ' & ', s, flags=re.IGNORECASE))
+# 'Baked Beans & Spam'
+
+# Replace using a function to generate the replacement text
+def dashrepl(matchobj):
+	if matchobj.group(0) == '-': 
+        return ' '
+	else: 
+        return '-'
+s = 'pro----gram-files'
+print(re.sub('-{1,2}', dashrepl, s))
+# 'pro--gram files'
+
+```
+
+Notes:
+
+* *repl* may be a string or a function
+* *regExPattern* may be a string or a Pattern object
